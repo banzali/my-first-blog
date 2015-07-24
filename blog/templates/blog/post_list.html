@@ -1,10 +1,40 @@
 <!DOCTYPE html>
+{% load staticfiles %}
+
 <html>
 	<head>
-		<title>MyFirstBlog</title>
+		<title>mySite</title>
+		<link rel="stylesheet" href="{% static "css/blog.css" %}">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	</head>
-	<body>
-		<h1>Hello World!</h1>
-        <p>fdjhsksdjfdslfsdjiuhffdksjuhsdiuooissdkjiihfsdfsdiosdijhfsdiofdisofuofuodsufdsioufoidsufoisduio</p>
-	</body>
+	<div id="body">
+		<body>
+			<div id="main">
+				<header>
+					<img src="{% static "images/elaundry.jpg" %}" alt="elaundry" style="width:851px height:315px">
+				</header>
+				<div id="navbar">
+					<ul>
+						<li>Home</li>
+						<li>Services</li>
+						<li>Contact</li>
+						<li>About</li>
+					</ul>
+				</div>
+				<h1>Welcome!</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper tortor lectus, sit amet molestie nisl fermentum sit amet. Sed vulputate aliquam lorem, a commodo tortor molestie id. Morbi ultricies vestibulum convallis. Etiam turpis turpis, posuere at enim et, vulputate pretium lectus. Vestibulum eget sagittis dolor. Nullam quis dolor laoreet massa elementum suscipit. Fusce porttitor erat non hendrerit sagittis. Quisque eleifend lectus cursus, faucibus metus semper, sollicitudin dui. Integer ut diam gravida, euismod purus lacinia, ultrices nulla. Fusce a enim bibendum ex ultricies tempus.</p>
+				<p>Pellentesque quis ligula a dui pellentesque tincidunt. Maecenas velit dolor, finibus vel tellus id, eleifend rhoncus lorem. Etiam semper ipsum sit amet lectus lobortis, eu lacinia libero porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam ex neque, vehicula non nulla vel, sagittis iaculis dui. Quisque odio nibh, cursus vel dui at, consequat imperdiet odio. Praesent vel lobortis ex. Donec neque ex, pretium vitae tempor sit amet, posuere sollicitudin mi. Fusce at nunc ac odio pulvinar gravida. Fusce sagittis suscipit velit cursus varius. Morbi bibendum tellus vitae pharetra ornare. Integer sem lectus, porttitor a porttitor et, lobortis eget enim. Donec non aliquam tortor.</p>
+				<p>Vivamus vitae lobortis quam. Nulla quis dignissim turpis. Mauris dictum massa quis turpis ullamcorper, et rhoncus urna maximus. Phasellus quis mauris ultrices, lobortis erat ut, facilisis ex. Maecenas tincidunt blandit scelerisque. Proin vel efficitur dolor. Donec ultrices consequat ullamcorper. Curabitur vel malesuada enim. Vivamus pellentesque sollicitudin velit, quis auctor augue feugiat sit amet. Cras eget commodo est. Cras rutrum est et urna fermentum, vel feugiat quam commodo. Praesent risus orci, lobortis placerat tincidunt ac, aliquam id leo. Nam diam nibh, vulputate sit amet tortor quis, bibendum sagittis lectus. Aenean faucibus, lacus sit amet rutrum auctor, eros magna venenatis lacus, vitae semper dolor nisl in magna. Maecenas porta metus ut nisi vestibulum dictum.</p>
+				<p>Etiam mattis magna a auctor gravida. Donec a ullamcorper ante. Nunc accumsan, odio a lacinia placerat, nunc mi ullamcorper metus, a porta nisi elit quis nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed condimentum ante sit amet sagittis placerat. Vivamus finibus nisi in hendrerit iaculis. Integer a lacus et tellus aliquam faucibus. Fusce lobortis est vel dictum condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas bibendum, erat ac semper vehicula, mauris dui tristique magna, at posuere ligula velit nec odio. Integer dictum ligula in elit feugiat, eu condimentum lorem convallis. Suspendisse convallis tincidunt mauris, vitae euismod tellus tincidunt ac.</p>
+				<p>Nam eget luctus nulla, vitae vestibulum ipsum. Proin velit lorem, sodales vel mauris eu, dictum rhoncus purus. Etiam eu malesuada leo. Sed porta, mauris eget lacinia mattis, lectus mauris faucibus orci, sit amet blandit urna nulla vel ante. Nulla magna arcu, semper in dictum semper, pharetra eu lorem. Nullam consequat vulputate justo sit amet euismod. Nam convallis, justo vel porttitor placerat, justo sem finibus erat, semper suscipit eros ipsum id quam. Vestibulum congue pretium orci. Etiam nibh tellus, sagittis at odio quis, malesuada cursus libero.</p>
+				<p><a href="www.facebook.com">Like us on facebook!</a></p>
+				<div id="foot">
+					<footer>
+						<p>&copy; 2015 NSSR eLaundry. All Rights Reseved</p>
+					</footer>
+				</div>
+			</div>
+		</body>
+	</div>
 </html>
